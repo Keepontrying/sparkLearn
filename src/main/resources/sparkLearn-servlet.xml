@@ -12,11 +12,11 @@
 
     <context:component-scan base-package="com.lyw.spark.controller"/>
    <!-- <mvc:annotation-driven/>-->
-    <mvc:default-servlet-handler/>
+
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
-
+    <mvc:default-servlet-handler/>
     <import resource="applicationConfig.xml"/>
 </beans>
