@@ -17,7 +17,7 @@ public class SparkLearnController {
     @ResponseBody
     public Map<String,Object> showSpark(){
         Map<String, Object> map = new HashMap<String, Object>();
-        map.put("message", "hello spark");
+        map.put("message", "hello spark!");
         return map;
     }
 }
